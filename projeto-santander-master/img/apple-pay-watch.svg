@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720"><defs>
+    <linearGradient id="phoneFrame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55565a"/><stop offset=".18" stop-color="#111214"/><stop offset=".72" stop-color="#030405"/><stop offset="1" stop-color="#66676a"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f2f1f5"/></linearGradient>
+    <linearGradient id="watchFrame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55575a"/><stop offset=".45" stop-color="#17191b"/><stop offset="1" stop-color="#74767a"/></linearGradient>
+    <linearGradient id="cardFace" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#343434"/><stop offset=".65" stop-color="#090909"/><stop offset="1" stop-color="#292929"/></linearGradient>
+    <linearGradient id="payBands" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#1ca66b"/><stop offset=".36" stop-color="#00a3d9"/><stop offset=".7" stop-color="#eac452"/><stop offset="1" stop-color="#e99839"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="170%" height="160%"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#280000" flood-opacity=".28"/></filter>
+    <filter id="softShadow" x="-40%" y="-30%" width="180%" height="180%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#160000" flood-opacity=".32"/></filter>
+  </defs>  <!-- watch -->
+  <g filter="url(#softShadow)" transform="rotate(7 520 465)">
+    <path d="M484 313c0-33 19-56 47-56s47 23 47 56v35h-94zm0 282h94v35c0 33-19 56-47 56s-47-23-47-56z" fill="#252628"/>
+    <path d="M500 277h62v22h-62zm0 366h62v22h-62z" fill="#383a3d"/>
+    <rect x="448" y="337" width="166" height="254" rx="46" fill="url(#watchFrame)"/>
+    <rect x="458" y="347" width="146" height="234" rx="38" fill="#050607" stroke="#8a8b8e" stroke-opacity=".45"/>
+    <rect x="470" y="362" width="122" height="204" rx="29" fill="#08090b"/>
+    <path d="M614 421h9v54h-9" fill="#505256"/>
+    <path d="M487 389c7-4 10-9 10-16 0 7 4 12 11 16-7 4-11 9-11 16 0-7-3-12-10-16Z" fill="#ec0000"/>
+    <text x="513" y="393" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#fff">santander</text>
+    <text x="531" y="437" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" letter-spacing="2" fill="#ddd">•••• 1234</text>
+    <circle cx="531" cy="494" r="15" fill="#0b2a19" stroke="#19b86b" stroke-width="2"/>
+    <path d="m524 494 5 5 10-12" fill="none" stroke="#51e29a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
